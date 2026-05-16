@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, MessageSquare, Send, CheckCircle, Instagram, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, MessageSquare, Send, CheckCircle, Instagram, Facebook } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <div className="flex gap-3">
                   {[
                     { Icon: Instagram, label: "Instagram" },
-                    { Icon: Twitter, label: "Twitter" },
+                    { Icon: Facebook, label: "Facebook" },
                   ].map(({ Icon, label }) => (
                     <a
                       key={label}
@@ -109,7 +109,7 @@ export default function ContactPage() {
                     </motion.div>
                     <h3 className="font-display text-2xl font-bold text-white mb-2">Message Sent!</h3>
                     <p className="text-gray-400 mb-6">
-                      Thanks {formData.name || "there"}! We'll get back to you within 24 hours.
+                      Thanks {formData.name || "Sameer Ahmad"}! We'll get back to you within 24 hours.
                     </p>
                     <button onClick={() => setSubmitted(false)} className="btn-secondary">
                       Send Another Message
@@ -127,7 +127,7 @@ export default function ContactPage() {
                           type="text"
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder="Ahmed Raza"
+                          placeholder="Sameer Ahmad"
                           className="input-field"
                         />
                       </div>
@@ -137,7 +137,7 @@ export default function ContactPage() {
                           type="email"
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          placeholder="ahmed@example.com"
+                          placeholder="sameer@example.com"
                           className="input-field"
                         />
                       </div>
