@@ -16,7 +16,8 @@ export const products: Product[] = [
     originalPrice: 1799,
     description:
       "A dramatic high-contrast artwork of Naruto in Nine-Tails Chakra Mode. Vivid orange energy radiates around the character in a stunning dark backdrop. Perfect for any anime fan's wall.",
-    image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&q=80",
+    // Local image copied to public folder
+    image: "/naruto-nine-tails.png",
     rating: 4.9,
     reviews: 248,
     category: "Anime",
@@ -29,7 +30,7 @@ export const products: Product[] = [
     price: 1199,
     description:
       "Detailed illustration of the Scout Regiment soaring over a ruined city. Dark atmospheric tones and epic scale make this a statement piece for any room.",
-    image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&q=80",
+    image: "/attack-on-titan.png",
     rating: 4.8,
     reviews: 192,
     category: "Anime",
@@ -43,7 +44,8 @@ export const products: Product[] = [
     originalPrice: 1699,
     description:
       "Goku in Ultra Instinct form, silver hair blazing. Dynamic action pose surrounded by divine energy. A must-have for Dragon Ball fans.",
-    image: "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=600&q=80",
+    // Updated to use a local image - place your image at public/ultra-instinct-goku.png
+    image: "/ultra-instinct-goku.png",
     rating: 4.7,
     reviews: 176,
     category: "Anime",
@@ -55,7 +57,7 @@ export const products: Product[] = [
     price: 1499,
     description:
       "The full Straw Hat Pirate crew illustrated in a sweeping oceanic panorama. Vibrant colors and detailed artwork for the ultimate One Piece fan.",
-    image: "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=600&q=80",
+    image: "/one-piece-straw-hat.png",
     rating: 4.9,
     reviews: 213,
     category: "Anime",
@@ -70,7 +72,7 @@ export const products: Product[] = [
     originalPrice: 1999,
     description:
       "Neon-drenched Night City skyline at 2 AM. Towering megabuildings glow against a purple-orange sky. The ultimate cyberpunk aesthetic for your gaming setup.",
-    image: "https://images.unsplash.com/photo-1563207153-f403bf289096?w=600&q=80",
+    image: "/cyberpunk-2077-night-city.png",
     rating: 4.8,
     reviews: 301,
     category: "Gaming",
@@ -83,7 +85,7 @@ export const products: Product[] = [
     price: 999,
     description:
       "The iconic crimson 'YOU DIED' on a pitch-black background with subtle ember glow. A legendary piece of gaming culture. Minimal. Powerful.",
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&q=80",
+    image: "/dark-souls-you-died.png",
     rating: 4.9,
     reviews: 428,
     category: "Gaming",
@@ -96,7 +98,7 @@ export const products: Product[] = [
     price: 1399,
     description:
       "Geralt silhouetted against a blood moon, Roach by his side. Painted in the style of a dark fantasy oil painting. A true collector's item.",
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&q=80",
+    image: "/witcher-geralt-rivia.png",
     rating: 4.7,
     reviews: 167,
     category: "Gaming",
@@ -108,7 +110,7 @@ export const products: Product[] = [
     originalPrice: 1599,
     description:
       "All agents assembled in a cinematic lineup. Bold graphic style with team color accents. Show your Valorant loyalty.",
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&q=80",
+    image: "/valorant-agent-collection.png",
     rating: 4.6,
     reviews: 134,
     category: "Gaming",
