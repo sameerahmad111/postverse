@@ -45,7 +45,7 @@ export default function ContactPage() {
             <div className="space-y-4">
               {[
                 { icon: Mail, title: "Email Us", value: "hello@posterverse.pk", sub: "Reply within 24 hours", color: "text-orange-400" },
-                { icon: Phone, title: "WhatsApp", value: "+92 300 1234567", sub: "Mon-Sat, 10am-8pm", color: "text-green-400" },
+                { icon: Phone, title: "WhatsApp", value: "+92 311 6009623", sub: "Mon-Sat, 10am-8pm", color: "text-green-400" },
                 { icon: MapPin, title: "Based In", value: "Lahore, Pakistan", sub: "Shipping nationwide", color: "text-blue-400" },
                 { icon: MessageSquare, title: "Social Media", value: "@PosterVerse", sub: "DM us on Instagram", color: "text-pink-400" },
               ].map((item, i) => (
